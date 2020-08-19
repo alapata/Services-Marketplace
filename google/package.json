@@ -10,5 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "serverless-google-cloudfunctions": "*"
+  },
+  "dependencies": {
+    "redis": "^3.0.2"
   }
 }
