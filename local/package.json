@@ -1,0 +1,19 @@
+{
+  "name": "alapata-stores",
+  "version": "1.0.0",
+  "description": "Local version to test the services",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "store",
+    "marketplace"
+  ],
+  "author": "Ala-market",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^3.0.2"
+  }
+}
