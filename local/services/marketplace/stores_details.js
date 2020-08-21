@@ -1,5 +1,3 @@
-'use strict';
-
 async function getStores(client, keys) {
   var stores = new Array();
 
@@ -9,8 +7,11 @@ async function getStores(client, keys) {
   return stores;
 }
 
-exports.http = (request, response) => {
-  let redis = require('promise-redis')(),
+
+
+module.exports = function (req, res) {
+  
+    let redis = require('../../node_modules/promise-redis')(),
   
       client = redis.createClient({
         port: 16180,
@@ -22,11 +23,8 @@ exports.http = (request, response) => {
       if (err) {
         throw err;
       } else {
-        response.status(200).send(await getStores(client, keys));      
+        stores = await getStores(client, keys);
+        res.status(200).json(stores);      
       }
     });  
-};
-
-exports.event = (event, callback) => {
-  callback();
-};
+  }
