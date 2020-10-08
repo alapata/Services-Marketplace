@@ -1,5 +1,4 @@
-{
-    "GetStoreHome": {
+"GetStoreHome": {
         "categories": [
             {
                 "id": 1,
@@ -359,38 +358,5 @@
         "rate": 5
       }
     ]
-    },
-    "GetStoreDetails": {
-        "store": {
-            "id": 1,
-            "name": "Mundo mascotas",
-            "image": "upoipi.oidoasid",
-            "imagelocation": "oiuoou.poipa",
-            "description": "Entregas el mismo día, nutricón especializada para tu mascota",
-            "rate": 5,
-            "location": {
-                "lat": 4.6188242,
-                "lng": -74.0700288,
-                "address": "Calle 32 # 13 - 52"
-            },
-            "contact": {
-                "instagram": "",
-                "phone": "3044858712",
-                "facebook": "",
-                "site": "https://www.mundomascotas.co"
-            },
-            "services": [
-                "Veterinaría",
-                "Peluqueria",
-                "Nutrición",
-                "Guarderia"
-            ],
-            "time": "8 am - 6 pm l - v",
-            "categories": [
-                "Perros",
-                "Gatos",
-                "Roedores"
-            ]
-        }
     }
 }
