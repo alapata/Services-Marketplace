@@ -206,5 +206,97 @@
               "rate": 5
             }
           ]
+    },
+    "GetStores": {
+        "stores": [
+            {
+                "id": 1,
+                "name": "Mundo mascotas",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 2,
+                "name": "NormAnimal",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 4,
+                "name": "Puppies & Kittens",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 5,
+                "name": "Veterinaria Thala",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 7,
+                "name": "Body Pet Shop",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 8,
+                "name": "Puppies",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 10,
+                "name": "Dog City",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 12,
+                "name": "Veterinaria Verde Animal",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            }
+        ]
     }
 }
