@@ -206,5 +206,349 @@
               "rate": 5
             }
           ]
+    },
+    "GetStores": {
+        "stores": [
+            {
+                "id": 1,
+                "name": "Mundo mascotas",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 2,
+                "name": "NormAnimal",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 4,
+                "name": "Puppies & Kittens",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 5,
+                "name": "Veterinaria Thala",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 7,
+                "name": "Body Pet Shop",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 8,
+                "name": "Puppies",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 10,
+                "name": "Dog City",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            },
+            {
+                "id": 12,
+                "name": "Veterinaria Verde Animal",
+                "image": "upoipi.oidoasid",
+                "rate": 5,
+                "location": {
+                    "lat": 4.6188242,
+                    "lng": -74.0700288,
+                    "address": "Calle 32 # 13 - 52"
+                }
+            }
+        ]
+    },
+    "GetProducts": {
+        "products": [
+      {
+        "id": 1,
+        "name": "Acana Duck y Pear",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+      },
+      {
+        "id": 2,
+        "name": "Acana Derk y Apple",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+      },
+      {
+        "id": 3,
+        "name": "Acana Chicken y Carrot",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+      },
+      {
+        "id": 4,
+        "name": "Acana Rosted Beef",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+      },
+      {
+        "id": 5,
+        "name": "Acana babys",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+      },
+      {
+        "id": 6,
+        "name": "Acana Duck y Apple",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        
+        "rate": 5
+      },
+      {
+        "id": 7,
+        "name": "Acana Pork y Pear",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+      }
+    ]
+    },
+    "GetStoreDetails": {
+        "store": {
+            "id": 1,
+            "name": "Mundo mascotas",
+            "image": "upoipi.oidoasid",
+            "imagelocation": "oiuoou.poipa",
+            "description": "Entregas el mismo día, nutricón especializada para tu mascota",
+            "rate": 5,
+            "location": {
+                "lat": 4.6188242,
+                "lng": -74.0700288,
+                "address": "Calle 32 # 13 - 52"
+            },
+            "contact": {
+                "instagram": "",
+                "phone": "3044858712",
+                "facebook": "",
+                "site": "https://www.mundomascotas.co"
+            },
+            "services": [
+                "Veterinaría",
+                "Peluqueria",
+                "Nutrición",
+                "Guarderia"
+            ],
+            "time": "8 am - 6 pm l - v",
+            "categories": [
+                "Perros",
+                "Gatos",
+                "Roedores"
+            ]
+        }
+    },
+    "GetStoreProducts": {
+        "products": [
+            {
+              "id": 1,
+              "name": "Acana Duck y Pear",
+              "image": "urlimage.png",
+              "images": [
+                "urlimage1.png",
+                "urlimage2.png"
+              ],
+              "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+              "detail": "Mayores a un año, alimentación nutricional, pato, y pera, salmon y puerco ",
+              "brand": "Acana",
+              "tags": [
+                "Razas Grandes",
+                "Razas Pequeñas"
+              ],
+              "amount": 20,
+              "price": 145,
+              "ref": "OIUOIEQHKJQW",
+              "categories": ["Perros", "Perros-Concentrado"],
+              "visible": true,
+              "rate": 5
+            },
+            {
+              "id": 2,
+              "name": "Acana Derk y Apple",
+              "image": "urlimage.png",
+              "images": [
+                "urlimage1.png",
+                "urlimage2.png"
+              ],
+              "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+              "detail": "Mayores a un año, alimentación nutricional, pato, y pera, salmon y puerco ",
+              "brand": "Acana",
+              "tags": [
+                "Razas Grandes",
+                "Razas Pequeñas"
+              ],
+              "amount": 20,
+              "price": 145,
+              "ref": "OIUOIEQHKJQW",
+              "categories": ["Perros", "Perros-Concentrado"],
+              "visible": true,
+              "rate": 5
+            },
+            {
+              "id": 3,
+              "name": "Acana Chicken y Carrot",
+              "image": "urlimage.png",
+              "images": [
+                "urlimage1.png",
+                "urlimage2.png"
+              ],
+              "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+              "detail": "Mayores a un año, alimentación nutricional, pato, y pera, salmon y puerco ",
+              "brand": "Acana",
+              "tags": [
+                "Razas Grandes",
+                "Razas Pequeñas"
+              ],
+              "amount": 20,
+              "price": 145,
+              "ref": "OIUOIEQHKJQW",
+              "categories": ["Perros", "Perros-Concentrado"],
+              "visible": true,
+              "rate": 5
+            },
+            {
+              "id": 4,
+              "name": "Acana Rosted Beef",
+              "image": "urlimage.png",
+              "images": [
+                "urlimage1.png",
+                "urlimage2.png"
+              ],
+              "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+              "detail": "Mayores a un año, alimentación nutricional, pato, y pera, salmon y puerco ",
+              "brand": "Acana",
+              "tags": [
+                "Razas Grandes",
+                "Razas Pequeñas"
+              ],
+              "amount": 20,
+              "price": 145,
+              "ref": "OIUOIEQHKJQW",
+              "categories": ["Perros", "Perros-Concentrado"],
+              "visible": true,
+              "rate": 5
+            },
+            {
+              "id": 5,
+              "name": "Acana babys",
+              "image": "urlimage.png",
+              "images": [
+                "urlimage1.png",
+                "urlimage2.png"
+              ],
+              "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+              "detail": "Mayores a un año, alimentación nutricional, pato, y pera, salmon y puerco ",
+              "brand": "Acana",
+              "tags": [
+                "Razas Grandes",
+                "Razas Pequeñas"
+              ],
+              "amount": 20,
+              "price": 145,
+              "ref": "OIUOIEQHKJQW",
+              "categories": ["Perros", "Perros-Concentrado"],
+              "visible": true,
+              "rate": 5
+            },
+            {
+              "id": 6,
+              "name": "Acana Duck y Apple",
+              "image": "urlimage.png",
+              "images": [
+                "urlimage1.png",
+                "urlimage2.png"
+              ],
+              "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+              "detail": "Mayores a un año, alimentación nutricional, pato, y pera, salmon y puerco ",
+              "brand": "Acana",
+              "tags": [
+                "Razas Grandes",
+                "Razas Pequeñas"
+              ],
+              "amount": 20,
+              "price": 145,
+              "ref": "OIUOIEQHKJQW",
+              "categories": ["Perros", "Perros-Concentrado"],
+              "visible": true,
+              "rate": 5
+            },
+            {
+              "id": 7,
+              "name": "Acana Pork y Pear",
+              "image": "urlimage.png",
+              "images": [
+                "urlimage1.png",
+                "urlimage2.png"
+              ],
+              "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+              "detail": "Mayores a un año, alimentación nutricional, pato, y pera, salmon y puerco ",
+              "brand": "Acana",
+              "tags": [
+                "Razas Grandes",
+                "Razas Pequeñas"
+              ],
+              "amount": 20,
+              "price": 145,
+              "ref": "OIUOIEQHKJQW",
+              "categories": ["Perros", "Perros-Concentrado"],
+              "visible": true,
+              "rate": 5
+            }
+          ]
     }
 }
