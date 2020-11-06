@@ -1,0 +1,31 @@
+ [{
+         "id": 1,
+         "name": "Perros",
+         "image": "upoipi.oidoasid"
+     },
+     {
+         "id": 2,
+         "name": "Gatos",
+         "image": "upoipi.oidoasid"
+     },
+     {
+         "id": 3,
+         "name": "Roedores",
+         "image": "upoipi.oidoasid"
+     },
+     {
+         "id": 4,
+         "name": "Peces",
+         "image": "upoipi.oidoasid"
+     },
+     {
+         "id": 5,
+         "name": "Aves",
+         "image": "upoipi.oidoasid"
+     },
+     {
+         "id": 6,
+         "name": "Granja",
+         "image": "upoipi.oidoasid"
+     }
+ ]
