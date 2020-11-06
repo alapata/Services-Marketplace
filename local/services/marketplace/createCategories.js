@@ -1,8 +1,10 @@
 module.exports = function(req, res) {
 
+    const jwt = require('jsonwebtoken');
     let body = req.body;
 
     let redis = require('redis'),
+
 
         client = redis.createClient({
             port: 13697,
@@ -16,6 +18,12 @@ module.exports = function(req, res) {
         image: body.image
     };
 
+    let token = jwt.sign({
+
+        usuario: jsonData
+
+    }, 'este-es-el-seed-desarrollo', { expiresIn: 60 * 60 * 24 * 30 });
+
     let key = jsonData.name;
 
 
@@ -25,5 +33,8 @@ module.exports = function(req, res) {
         });
 
 
-    res.status(200).json({ Categoria: jsonData });
+    res.status(200).json({
+        Categoria: jsonData,
+        token
+    });
 }
