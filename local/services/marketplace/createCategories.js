@@ -2,7 +2,18 @@ module.exports = function(req, res) {
 
     const jwt = require('jsonwebtoken');
     let body = req.body;
-
+    const token = req.headers['authorization'];
+    const tokenKey = require('../helpers/constants');
+    
+    jwt.verify(token, tokenKey.tokenKey, (err, decoded) => {      
+        if (err) {
+          return res.json({ mensaje: 'Token inválida' });    
+        } else {
+          req.decoded = decoded;    
+          next();
+        }
+      });
+    
     let redis = require('redis'),
 
 
@@ -17,15 +28,6 @@ module.exports = function(req, res) {
         name: body.name,
         image: body.image
     };
-
-    let token = jwt.sign({
-
-        usuario: jsonData
-
-    }, 'este-es-el-seed-desarrollo', { expiresIn: 60 * 60 * 24 * 30 });
-
-    let key = jsonData.name;
-
 
     client.set(key, JSON.stringify(jsonData),
         function(err, reply) {
