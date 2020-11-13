@@ -54,8 +54,6 @@ module.exports = function(req, res) {
                 }
             });
 
-
-
             /*
             client.keys('*', function(err, keys) {
                 if (err) {
