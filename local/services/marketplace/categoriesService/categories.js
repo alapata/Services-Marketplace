@@ -2,7 +2,7 @@ module.exports = function(req, res) {
 
     const jwt = require('jsonwebtoken');
     const token = req.headers['authorization'];
-    const tokenKey = require('../helpers/constants');
+    const tokenKey = require('../../helpers/constants');
 
     jwt.verify(token, tokenKey.tokenKey, (err, decoded) => {
         if (err) {
@@ -12,7 +12,7 @@ module.exports = function(req, res) {
                 err
             });
         } else {
-            let redis = require('../../node_modules/redis'),
+            let redis = require('redis'),
 
                 client = redis.createClient({
                     port: 13697,

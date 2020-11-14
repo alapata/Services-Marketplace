@@ -1,21 +1,17 @@
 const market = require('express').Router();
 
+const storesService = require('./storesService');
+const categoriesService = require('./categoriesService');
+
 const bodyParser = require('body-parser');
 market.use(bodyParser.urlencoded({ extended: false }))
 market.use(bodyParser.json())
 
-const stores = require('./stores');
-const storesDetails = require('./stores_details');
-const createStore = require('./createStores');
-const categories = require('./categories');
-const createCategories = require('./createCategories');
-const deleteCategories = require('./deleteCategories');
+market.use('/storesService', storesService);
+market.use('/categoriesService', categoriesService);
 
-market.get('/stores', stores);
-market.get('/bullstores', createStore);
-market.get('/storesfull', storesDetails);
-market.get('/categories', categories);
-market.post('/bullCategories', createCategories);
-market.delete('/deleteCategories', deleteCategories);
+market.get('/', (req, res) => {
+    res.status(200).json({ message: 'Index marketplace Connected!' });
+});
 
 module.exports = market;

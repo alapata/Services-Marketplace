@@ -4,7 +4,7 @@ module.exports = function(req, res) {
 
     const jwt = require('jsonwebtoken');
     const token = req.headers['authorization'];
-    const tokenKey = require('../helpers/constants');
+    const tokenKey = require('../../helpers/constants');
 
     jwt.verify(token, tokenKey.tokenKey, (err, decoded) => {
         if (err) {
@@ -14,7 +14,7 @@ module.exports = function(req, res) {
                 err
             });
         } else {
-            let redis = require('../../node_modules/redis'),
+            let redis = require('redis'),
 
                 client = redis.createClient({
                     port: 13697,
@@ -52,22 +52,13 @@ module.exports = function(req, res) {
                         mensaje: 'No se encontró la categoría a eliminar'
                     });
                 }
+
+                return res.status(200).json({
+                    ok: true,
+                    key,
+                    mensaje: 'Borrado'
+                });
             });
-
-            /*
-            client.keys('*', function(err, keys) {
-                if (err) {
-                    throw err;
-                } else {
-                    for (var i = 0, len = keys.length; i < len; i++) {
-                        console.log(keys[i]);
-                    }
-                    res.status(200).json({ categorias: keys });
-                }
-            });*/
-
         }
     });
-
-
 }

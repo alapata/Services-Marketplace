@@ -3,7 +3,7 @@ module.exports = function(req, res) {
     const jwt = require('jsonwebtoken');
     let body = req.body;
     const token = req.headers['authorization'];
-    const tokenKey = require('../helpers/constants');
+    const tokenKey = require('../../helpers/constants');
 
 
     jwt.verify(token, tokenKey.tokenKey, (err, decoded) => {
@@ -38,9 +38,6 @@ module.exports = function(req, res) {
 
             res.status(200).json({
                 Categoria: jsonData,
-                token,
-                tokenKey,
-                decoded
             });
         }
     });

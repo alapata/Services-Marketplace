@@ -1,10 +1,15 @@
 const routes = require('express').Router();
-const stores = require('./stores');
+
+const store = require('./stores');
 const createStore = require('./createStores');
 const storesDetails = require('./stores_details');
 
-routes.get('/stores', stores);
+routes.get('/store', store);
 routes.get('/bullstores', createStore);
 routes.get('/storesfull', storesDetails);
+
+routes.get('/', (req, res) => {
+    res.status(200).json({ message: 'Index Stores Connected!' });
+});
 
 module.exports = routes;
