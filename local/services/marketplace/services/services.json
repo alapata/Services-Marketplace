@@ -1,0 +1,46 @@
+[{
+        "id": 1,
+        "name": "Veterinaria",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 2,
+        "name": "Urgencia",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 3,
+        "name": "Vacunación",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 4,
+        "name": "Peluqueria",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 5,
+        "name": "Guarderia",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 6,
+        "name": "hotel",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 7,
+        "name": "Entrenador",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 8,
+        "name": "Psicologo",
+        "image": "upoipi.oidoasid"
+    },
+    {
+        "id": 9,
+        "name": "Paseador",
+        "image": "upoipi.oidoasid"
+    }
+]
