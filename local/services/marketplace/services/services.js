@@ -15,9 +15,9 @@ module.exports = function(req, res) {
             let redis = require('redis'),
 
                 client = redis.createClient({
-                    port: 13697,
-                    host: 'redis-13697.c240.us-east-1-3.ec2.cloud.redislabs.com',
-                    password: '5AayTYBRQALiVY2I8dkkqiesuwKQSCVO',
+                    port: 16990,
+                    host: 'redis-16990.c239.us-east-1-2.ec2.cloud.redislabs.com',
+                    password: 'qYj2ElIgeEGY5fRqdGnVGWDO9zxic076',
                 });
 
             client.keys('*', function(err, keys) {

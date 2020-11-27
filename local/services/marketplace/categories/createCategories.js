@@ -5,7 +5,6 @@ module.exports = function(req, res) {
     const token = req.headers['authorization'];
     const tokenKey = require('../../helpers/constants');
 
-
     jwt.verify(token, tokenKey.tokenKey, (err, decoded) => {
 
         if (err) {
@@ -41,5 +40,4 @@ module.exports = function(req, res) {
             });
         }
     });
-
 }

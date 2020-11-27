@@ -13,7 +13,6 @@ module.exports = function(req, res) {
             });
         } else {
             let redis = require('redis'),
-
                 client = redis.createClient({
                     port: 13697,
                     host: 'redis-13697.c240.us-east-1-3.ec2.cloud.redislabs.com',

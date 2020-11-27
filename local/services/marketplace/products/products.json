@@ -1,0 +1,58 @@
+[{
+        "id": 1,
+        "name": "Acana Duck y Pear",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+    },
+    {
+        "id": 2,
+        "name": "Acana Derk y Apple",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+    },
+    {
+        "id": 3,
+        "name": "Acana Chicken y Carrot",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+    },
+    {
+        "id": 4,
+        "name": "Acana Rosted Beef",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+    },
+    {
+        "id": 5,
+        "name": "Acana babys",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+    },
+    {
+        "id": 6,
+        "name": "Acana Duck y Apple",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+
+        "rate": 5
+    },
+    {
+        "id": 7,
+        "name": "Acana Pork y Pear",
+        "image": "urlimage.png",
+        "description": "Concentrado tipo premiun, humedo para todas las razas de perros",
+        "categories": ["Perros", "Perros-Concentrado"],
+        "rate": 5
+    }
+]

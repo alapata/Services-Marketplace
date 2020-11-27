@@ -17,9 +17,9 @@ module.exports = function(req, res) {
             let redis = require('redis'),
 
                 client = redis.createClient({
-                    port: 16990,
-                    host: 'redis-16990.c239.us-east-1-2.ec2.cloud.redislabs.com',
-                    password: 'qYj2ElIgeEGY5fRqdGnVGWDO9zxic076',
+                    port: 14542,
+                    host: 'redis-14542.c8.us-east-1-4.ec2.cloud.redislabs.com',
+                    password: 'VREdWqF5PJBYj4jRZhrVvFBdcQaWpL3k',
                 });
 
             let key = body.name;
@@ -28,7 +28,7 @@ module.exports = function(req, res) {
 
                 return res.status(400).json({
                     ok: false,
-                    mensaje: 'El nombre (name) del servicio a eliminar es necesario'
+                    mensaje: 'El nombre (name) del producto a eliminar es necesario'
                 });
 
             }
@@ -45,11 +45,11 @@ module.exports = function(req, res) {
 
                 if (reply === 0) {
                     console.log(reply);
-                    console.log('No se encontró el servicio a eliminar');
+                    console.log('No se encontró el producto a eliminar');
 
                     return res.status(404).json({
                         ok: false,
-                        mensaje: 'No se encontró el servicio a eliminar'
+                        mensaje: 'No se encontró el producto a eliminar'
                     });
                 }
 
